@@ -4,7 +4,6 @@ import (
 	"encoding/json"
 	"errors"
 	"fmt"
-	. "github.com/nntaoli-project/goex"
 	"log"
 	"net/http"
 	"net/url"
@@ -12,10 +11,12 @@ import (
 	"strconv"
 	"strings"
 	"time"
+
+	. "github.com/iBQuant/goex"
 )
 
 const (
-	EXX			 = "EXX"
+	EXX          = "EXX"
 	API_BASE_URL = "https://api.exx.com/"
 	MARKET_URL   = "http://api.exx.com/data/v1/"
 	TICKER_API   = "ticker?currency=%s"

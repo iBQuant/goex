@@ -1,12 +1,12 @@
 package exx
 
 import (
-	"github.com/nntaoli-project/goex"
 	"net/http"
 	"net/url"
 	"testing"
-)
 
+	"github.com/iBQuant/goex"
+)
 
 var (
 	api_key       = "yourAccessKey"

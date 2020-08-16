@@ -7,28 +7,28 @@
 
 goex项目是为了统一并标准化各个数字资产交易平台的接口而设计，同一个策略可以随时切换到任意一个交易平台，而不需要更改任何代码。
 
-[English](https://github.com/nntaoli-project/goex/blob/dev/README_en.md)
+[English](https://github.com/iBQuant/goex/blob/dev/README_en.md)
 
 ### wiki文档
 
-[文档](https://github.com/nntaoli-project/goex/wiki)
+[文档](https://github.com/iBQuant/goex/wiki)
 
 ### goex已支持交易所 `23+`
 
-| 交易所 | 行情接口 | 交易接口 | 版本号 |   
-| ---   | ---     | ---     | ---   |  
-| huobi.pro | Y | Y | 1 |   
-| hbdm.com | Y (REST / WS)| Y |  1 |  
-| okex.com (spot/future)| Y (REST / WS) | Y | 1 |  
+| 交易所 | 行情接口 | 交易接口 | 版本号 |
+| ---   | ---     | ---     | ---   |
+| huobi.pro | Y | Y | 1 |
+| hbdm.com | Y (REST / WS)| Y |  1 |
+| okex.com (spot/future)| Y (REST / WS) | Y | 1 |
 | okex.com (swap future) | Y | Y | 2 |
-| binance.com | Y | Y | 1 |  
+| binance.com | Y | Y | 1 |
 | kucoin.com | Y | Y | 1 |
-| bitstamp.net | Y | Y | 1 |  
-| bitfinex.com | Y | Y | 1 |  
-| zb.com | Y | Y | 1 |  
-| kraken.com | Y | Y | * |  
-| poloniex.com | Y | Y | * |   
-| big.one | Y | Y | 2\|3 | 
+| bitstamp.net | Y | Y | 1 |
+| bitfinex.com | Y | Y | 1 |
+| zb.com | Y | Y | 1 |
+| kraken.com | Y | Y | * |
+| poloniex.com | Y | Y | * |
+| big.one | Y | Y | 2\|3 |
 | hitbtc.com | Y | Y | * |
 | coinex.com | Y | Y | 1 |
 | exx.com | Y | Y | 1 |
@@ -36,15 +36,15 @@ goex项目是为了统一并标准化各个数字资产交易平台的接口而�
 | gate.io | Y | N | 1 |
 | bittrex.com | Y | N | 1.1 |
 
-### 安装goex库  
+### 安装goex库
 > go get
 
-``` go get github.com/nntaoli-project/goex ```
+``` go get github.com/iBQuant/goex ```
 
 >建议go mod 管理依赖
-``` 
+```
 require (
-          github.com/nntaoli-project/goex latest
+          github.com/iBQuant/goex latest
 )
 ```
 
@@ -62,9 +62,9 @@ donate
 BTC:13cBHLk6B7t3Uj7caJbCwv1UaiuiA6Qx8z
 
 LTC:LVxM7y1K2dnpuNBU42ei3dKzPySf4VAm1H
- 
+
 ETH:0x98573ddb33cdddce480c3bc1f9279ccd88ca1e93
 
 ### 欢迎为作者付一碗面钱
 
-<img src="https://raw.githubusercontent.com/nntaoli-project/goex/dev/wx_pay.JPG" width="250" alt="一碗面钱">&nbsp;&nbsp;&nbsp;<img src="https://raw.githubusercontent.com/nntaoli-project/goex/dev/IMG_1177.jpg" width="250" alt="一碗面钱">
+<img src="https://raw.githubusercontent.com/iBQuant/goex/dev/wx_pay.JPG" width="250" alt="一碗面钱">&nbsp;&nbsp;&nbsp;<img src="https://raw.githubusercontent.com/iBQuant/goex/dev/IMG_1177.jpg" width="250" alt="一碗面钱">

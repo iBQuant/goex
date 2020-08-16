@@ -1,4 +1,4 @@
-module github.com/nntaoli-project/goex
+module github.com/iBQuant/goex
 
 go 1.12
 

@@ -1,11 +1,12 @@
 package okex
 
 import (
-	"github.com/nntaoli-project/goex"
 	"net/http"
 	"net/url"
 	"testing"
 	"time"
+
+	"github.com/iBQuant/goex"
 )
 
 var config = &goex.APIConfig{

@@ -3,12 +3,13 @@ package binance
 import (
 	"errors"
 	"fmt"
-	"github.com/json-iterator/go"
-	. "github.com/nntaoli-project/goex"
 	"strconv"
 	"strings"
 	"time"
 	"unsafe"
+
+	. "github.com/iBQuant/goex"
+	jsoniter "github.com/json-iterator/go"
 )
 
 var json = jsoniter.ConfigCompatibleWithStandardLibrary

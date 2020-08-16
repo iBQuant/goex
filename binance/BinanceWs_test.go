@@ -1,11 +1,12 @@
 package binance
 
 import (
-	"github.com/nntaoli-project/goex"
 	"log"
 	"testing"
 	"time"
 	"unsafe"
+
+	"github.com/iBQuant/goex"
 )
 
 var bnWs = NewBinanceWs()

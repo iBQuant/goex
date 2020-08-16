@@ -1,9 +1,10 @@
 package kucoin
 
 import (
-	"github.com/nntaoli-project/goex"
 	"testing"
 	"time"
+
+	"github.com/iBQuant/goex"
 )
 
 var kc = New("", "", "")
@@ -27,4 +28,3 @@ func TestKuCoin_GetTrades(t *testing.T) {
 	trades, _ := kc.GetTrades(goex.BTC_USDT, 0)
 	t.Log(trades)
 }
-

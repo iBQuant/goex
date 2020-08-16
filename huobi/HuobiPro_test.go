@@ -1,14 +1,15 @@
 package huobi
 
 import (
-	"github.com/nntaoli-project/goex"
-	"github.com/nntaoli-project/goex/internal/logger"
-	"github.com/stretchr/testify/assert"
 	"net"
 	"net/http"
 	"net/url"
 	"testing"
 	"time"
+
+	"github.com/iBQuant/goex"
+	"github.com/iBQuant/goex/internal/logger"
+	"github.com/stretchr/testify/assert"
 )
 
 var httpProxyClient = &http.Client{
@@ -33,7 +34,7 @@ var (
 //
 var hbpro = NewHuoBiProSpot(httpProxyClient, apikey, secretkey)
 
-func init()  {
+func init() {
 	logger.Log.SetLevel(logger.DEBUG)
 }
 

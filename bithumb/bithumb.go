@@ -5,13 +5,14 @@ import (
 	"encoding/json"
 	"errors"
 	"fmt"
-	. "github.com/nntaoli-project/goex"
 	"log"
 	"net/http"
 	"net/url"
 	"sort"
 	"strconv"
 	"time"
+
+	. "github.com/iBQuant/goex"
 )
 
 type Bithumb struct {

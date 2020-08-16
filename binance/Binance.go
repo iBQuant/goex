@@ -3,12 +3,13 @@ package binance
 import (
 	"errors"
 	"fmt"
-	. "github.com/nntaoli-project/goex"
 	"net/http"
 	"net/url"
 	"strconv"
 	"strings"
 	"time"
+
+	. "github.com/iBQuant/goex"
 )
 
 const (

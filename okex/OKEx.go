@@ -5,12 +5,13 @@ import (
 	"encoding/json"
 	"errors"
 	"fmt"
-	"github.com/google/uuid"
-	. "github.com/nntaoli-project/goex"
-	"github.com/nntaoli-project/goex/internal/logger"
 	"strings"
 	"sync"
 	"time"
+
+	"github.com/google/uuid"
+	. "github.com/iBQuant/goex"
+	"github.com/iBQuant/goex/internal/logger"
 )
 
 const baseUrl = "https://www.okex.com"

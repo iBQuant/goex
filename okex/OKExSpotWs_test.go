@@ -1,11 +1,12 @@
 package okex
 
 import (
-	"github.com/nntaoli-project/goex"
-	"github.com/nntaoli-project/goex/internal/logger"
 	"os"
 	"testing"
 	"time"
+
+	"github.com/iBQuant/goex"
+	"github.com/iBQuant/goex/internal/logger"
 )
 
 func init() {

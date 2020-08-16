@@ -1,12 +1,13 @@
 package binance
 
 import (
-	"github.com/nntaoli-project/goex"
 	"net"
 	"net/http"
 	"net/url"
 	"testing"
 	"time"
+
+	"github.com/iBQuant/goex"
 )
 
 var ba = NewWithConfig(

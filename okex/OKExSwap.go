@@ -8,7 +8,7 @@ import (
 	"strconv"
 	"time"
 
-	. "github.com/nntaoli-project/goex"
+	. "github.com/iBQuant/goex"
 )
 
 const (

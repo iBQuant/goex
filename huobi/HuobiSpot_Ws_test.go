@@ -1,10 +1,11 @@
 package huobi
 
 import (
-	"github.com/nntaoli-project/goex"
 	"os"
 	"testing"
 	"time"
+
+	"github.com/iBQuant/goex"
 )
 
 func TestNewSpotWs(t *testing.T) {

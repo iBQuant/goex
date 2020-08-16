@@ -2,10 +2,11 @@ package huobi
 
 import (
 	"fmt"
-	"github.com/nntaoli-project/goex"
-	"github.com/nntaoli-project/goex/internal/logger"
 	"sort"
 	"strings"
+
+	"github.com/iBQuant/goex"
+	"github.com/iBQuant/goex/internal/logger"
 )
 
 func ParseDepthFromResponse(r DepthResponse) goex.Depth {
