@@ -602,6 +602,8 @@ func (dm *Hbdm) adaptSymbol(pair CurrencyPair, contractType string) string {
 		symbol += "NW"
 	case QUARTER_CONTRACT:
 		symbol += "CQ"
+	case BI_QUARTER_CONTRACT:
+		symbol += "NQ"
 	}
 	return symbol
 }
